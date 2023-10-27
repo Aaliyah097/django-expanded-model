@@ -30,7 +30,7 @@ def extract_fields_and_columns(model) -> Tuple[List, List]:
     return values, columns
 ```
 
-# Example
+### Example
 
 ```
 class Engine(django.db.models.Model):
@@ -49,7 +49,7 @@ extract_fields_and_columns(Car()) ->
 )
 ```
 
-# OR if Engine is None
+### OR if Engine is None
 
 ```
 extract_fields_and_columns(Car()) ->
@@ -59,6 +59,6 @@ extract_fields_and_columns(Car()) ->
 )
 ```
 
-# Use Case
+### Use Case
 
 It is usefull fro exporting data into Excel from Django admin panel
